@@ -1,0 +1,18 @@
+{
+  "name": "mvc-crud",
+  "version": "1.0.0",
+  "description": "Basic MVC implementation",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.0.0"
+  }
+}
