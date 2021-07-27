@@ -1,8 +1,10 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const settings = require('./settings/appSettings');
 const routes = require('./lib/routes');
+
+mongoose.connect(settings.dbURL, { useNewUrlParser: true });
 const app = express();
-const port = 3123;
 
 app.use('/', routes);
-
-app.listen(port);
+app.listen(settings.port);
