@@ -6,7 +6,6 @@
 
   <li>TODO:</li>
   <ul>
-    <li>add proper comments</li>
     <li>add css</li>
   </ul>
 </ul>
